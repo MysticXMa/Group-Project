@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  position: relative;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8FB83B;
+  color: #FFECE0;
+}
+
+.App-main {
+  min-height: calc(100vh - 360px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.App-footer {
+  position: relative;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8FB83B;
+  color: #FFECE0;
+}
