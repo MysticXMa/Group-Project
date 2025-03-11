@@ -1,26 +1,44 @@
+## Names/Tasks:
+
+Misa: HTML
+Tuomas: CSS
+Hiskia: JavaScript
+Maxim: SQL, TypeScript
+
 # Taitaja
+
 ## Front-end
+
 tarvitset ainakin:
+
 ```plaintext
   Teksti editori esim. visual studio code
   git
     Clonaa tämä git respitori
   node.js
 ```
+
 kirjoita suraavat terminaaliin:
+
 ```plaintext
   cd front-end
   npm i
   npm run start
 ```
+
 ## TODO
+
 ### Käyttäjä ystävällisyys
+
 #### PUNA VIHREÄ SOKEUS!!!
+
 #### Responsiivisuus
+
 ### Back-end
 
 here is a sql file for it
 user_data.sql
+
 ```plaintext
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
