@@ -1,4 +1,4 @@
-## Names/Tasks:
+## Names&Tasks:
 
 Misa: HTML
 Tuomas: CSS
