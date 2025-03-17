@@ -1,7 +1,7 @@
 import { Tilasto } from "../types/tilasto";
 
 export const fetchTilasto = async (): Promise<Tilasto[]> => {
-// Mock data
+  // Mock data
   return [
     {
       ryhmä: 1,
@@ -20,6 +20,18 @@ export const fetchTilasto = async (): Promise<Tilasto[]> => {
       koulu: "Koulu C",
       joukkue: "Tiimi 3",
       rastiAjat: [135, 128],
+    },
+    {
+      ryhmä: 4,
+      koulu: "Koulu D",
+      joukkue: "Tiimi 4",
+      rastiAjat: [182, 170, 117],
+    },
+    {
+      ryhmä: 5,
+      koulu: "Koulu E",
+      joukkue: "Tiimi 5",
+      rastiAjat: [89, 134, 165, 127],
     },
   ];
 };
