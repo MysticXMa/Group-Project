@@ -1,9 +1,11 @@
 ## Names&Tasks:
 
-Misa: HTML
+```plaintext
+Misa: HTML, React
 Tuomas: CSS
 Hiskia: JavaScript
 Maxim: SQL, TypeScript
+```
 
 # Taitaja
 
