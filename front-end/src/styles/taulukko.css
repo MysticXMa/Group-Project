@@ -1,12 +1,12 @@
 .table-container {
   width: 70%;
   margin: auto;
-  color: #8FB83B;
+  color: #3b6bb8;
 }
 
 .table-container h2 {
   text-align: left;
-  color: #8FB83B;
+  color: #3b6bb8;
   font-size: 2.5rem;
 }
 
@@ -20,7 +20,7 @@
 .table-wrapper td {
   text-align: left;
   padding: 0.75rem;
-  border: 2px solid #8FB83B;
+  border: 2px solid #3b6bb8;
 }
 
 .table-wrapper th {
@@ -46,12 +46,12 @@ td:first-child {
   border: none;
   border-radius: 0.25rem;
   cursor: pointer;
-  background-color: #8FB83B;
+  background-color: #3b6bb8;
   color: #FFECE0;
 }
 
 .table-wrapper button:hover {
-  background-color: #72932f;
+  background-color: #3b6bb8;
 }
 
 /* Cancel button style */
@@ -80,7 +80,7 @@ td:first-child {
 
 .taulukko input {
   padding: 0.5rem;
-  border: 1px solid #8FB83B;
+  border: 1px solid #3b6bb8;
   border-radius: 0.25rem;
 }
 
@@ -120,7 +120,7 @@ td:first-child {
 
 .upload-container h2 {
   text-align: left;
-  color: #8FB83B;
+  color: #3b6bb8;
   font-size: 2.5rem;
   margin-bottom: 1rem; 
 }
@@ -130,15 +130,15 @@ td:first-child {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 0.2rem solid #8FB83B;
+  border: 0.2rem solid #3b6bb8;
   border-radius: 1rem;
   padding: 2rem;
   background-color: #FFECE0;
 }
 
 .upload-button {
-  border: 0.2rem solid #8FB83B;
-  background-color: #8FB83B;
+  border: 0.2rem solid #3b6bb8;
+  background-color: #3b6bb8;
   color: #FFECE0;
   width: 8.5rem;
   height: 2rem;
@@ -150,7 +150,7 @@ td:first-child {
 }
 
 .submit-button {
-  background-color: #8FB83B;
+  background-color: #3b6bb8;
   color: #FFECE0;
   width: 5.5rem;
   height: 2rem;

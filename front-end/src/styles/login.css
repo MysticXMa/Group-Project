@@ -20,19 +20,19 @@
   .form-group label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #8FB83B;
+    color: #3b6bb8;
     text-align: left;
   }
   
   .form-group input {
     width: 100%;
     padding: 0.5rem;
-    border: 1px solid #8FB83B;
+    border: 1px solid #3b6bb8;
     border-radius: 4px;
   }
   
   .login-button {
-    background-color: #8FB83B;
+    background-color: #3b6bb8;
     color: #FFECE0;
     border: none;
     padding: 0.75rem 1.5rem;

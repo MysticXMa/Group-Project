@@ -1,12 +1,12 @@
 h2 {
-    color: #8FB83B;
+    color: #3b6bb8;
     font-size: 2.5rem;
     margin-bottom: 1rem;
     margin-top: 0;
 }
 
 .kisa-form-container {
-    border: 0.2rem solid #8FB83B;
+    border: 0.2rem solid #3b6bb8;
     border-radius: 1rem;
     padding: 2rem;
     padding-top: 0.6rem;
@@ -34,7 +34,7 @@ h2 {
 }
 
 .submit-button {
-    background-color :#8FB83B;
+    background-color :#3b6bb8;
     color: #ffffff;
     width: 5.5rem;
     height: 2rem;

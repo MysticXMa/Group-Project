@@ -4,7 +4,7 @@ import '../styles/login.css';
 function Login() {
   return (
     <div className="login-container">
-      <h2 style={{ color: '#8FB83B', textAlign: 'left' }}>Kirjaudu sisään</h2>
+      <h2 style={{ color: '#3b6bb8', textAlign: 'left' }}>Kirjaudu sisään</h2>
       <form className="login-form">
         <div className="form-group">
           <label htmlFor="username">Käyttäjätunnus:</label>

@@ -1,7 +1,7 @@
 .aika-container {
     background-color: #FFECE0;
-    color: #8FB83B;
-    border-color: #8FB83B;
+    color: #3b6bb8;
+    border-color: #3b6bb8;
     border-radius: 10px;
     border-style: solid;
     width: 400px;
@@ -34,20 +34,20 @@
 .rasti-input {
     align-self: flex-start;
     width: 182px;
-    border-color: #8FB83B;
+    border-color: #3b6bb8;
     border-radius: 5px;
     border-style: solid;
-    color: #8FB83B;
+    color: #3b6bb8;
     font-size: large;
     font-family: "Besley", serif;
 }
 
 .rasti-input:focus {
-    outline: 1px solid #8FB83B;
+    outline: 1px solid #3b6bb8;
 }
 
 .rasti-input:hover {
-    outline: 1px solid #8FB83B;
+    outline: 1px solid #3b6bb8;
 }
 
 .ryhmä-input-container {
@@ -66,10 +66,10 @@
     align-self: flex-end;
     width: 190px;
     border: 2px;
-    border-color: #8FB83B;
+    border-color: #3b6bb8;
     border-radius: 5px;
     border-style: solid;
-    color: #8FB83B;
+    color: #3b6bb8;
     font-size: large;
     font-family: "Besley", serif;
 }
@@ -79,11 +79,11 @@
 }
 
 .ryhmä-input:focus {
-    outline: 1px solid #8FB83B;
+    outline: 1px solid #3b6bb8;
 }
 
 .ryhmä-input:hover {
-    outline: 1px solid #8FB83B;
+    outline: 1px solid #3b6bb8;
 }
 
 .aika-tallenus {
@@ -119,29 +119,29 @@
 
 .aika-tallenus .time-input input{
     width: 130px;
-    border-color: #8FB83B;
+    border-color: #3b6bb8;
     border-radius: 5px;
     border-style: solid;
-    color: #8FB83B;
+    color: #3b6bb8;
     font-size: large;
     margin: 5px;
     font-family: "Besley", serif;
 }
 
 .aika-tallenus .time-input input:focus {
-    outline: 1px solid #8FB83B;
+    outline: 1px solid #3b6bb8;
 }
 
 .aika-tallenus .time-input input:hover {
-    outline: 1px solid #8FB83B;
+    outline: 1px solid #3b6bb8;
 }
 
 .tallennus {
-    border-color: #8FB83B;
+    border-color: #3b6bb8;
     border-radius: 5px;
     border-style: solid;
     color: #FFECE0;
-    background-color: #8FB83B;
+    background-color: #3b6bb8;
     padding: 1px;
     margin: 5px;
     width: 80px;
@@ -150,8 +150,8 @@
 
 .tallennus:hover {
     background-color: #FFECE0;
-    color: #8FB83B;
-    outline: 1px solid #8FB83B;
+    color: #3b6bb8;
+    outline: 1px solid #3b6bb8;
 }
 
 .aika-container [type=number]::-webkit-inner-spin-button {
