@@ -1,0 +1,165 @@
+.table-container {
+  width: 70%;
+  margin: auto;
+  color: #8FB83B;
+}
+
+.table-container h2 {
+  text-align: left;
+  color: #8FB83B;
+  font-size: 2.5rem;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Standard style for the tiles */
+.table-wrapper th,
+.table-wrapper td {
+  text-align: left;
+  padding: 0.75rem;
+  border: 2px solid #8FB83B;
+}
+
+.table-wrapper th {
+  background-color: #FFECE0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.table-wrapper tbody tr:nth-child(even) {
+  background-color: #FFECE0;
+}
+
+/* This makes the first "ID" line not show up */
+th:first-child,
+td:first-child { 
+  display: none;
+}
+
+/* Standard button style */
+.table-wrapper button {
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background-color: #8FB83B;
+  color: #FFECE0;
+}
+
+.table-wrapper button:hover {
+  background-color: #72932f;
+}
+
+/* Cancel button style */
+.table-wrapper button.cancel {
+  background-color: #6c757d;
+}
+
+.table-wrapper button.cancel:hover {
+  background-color: #545b62;
+}
+
+/* A space for buttons */
+.table-wrapper .actions {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  width: 85%
+}
+
+/* The table it self */
+.taulukko {
+  table-layout:auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.taulukko input {
+  padding: 0.5rem;
+  border: 1px solid #8FB83B;
+  border-radius: 0.25rem;
+}
+
+#number-column{
+  cursor: default;
+  min-width: 0.2rem;
+  max-width: 0.2rem;
+  text-align: center;
+}
+
+#actions-column {
+  cursor: default;
+  width: 2.5rem;
+}
+
+.time-input input{
+  width: 3.1rem;
+}
+
+.time-input span {
+  margin-inline: 0.15rem;
+}
+
+.time-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-container {
+  width: 30rem;
+  margin: auto;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-container h2 {
+  text-align: left;
+  color: #8FB83B;
+  font-size: 2.5rem;
+  margin-bottom: 1rem; 
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0.2rem solid #8FB83B;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: #FFECE0;
+}
+
+.upload-button {
+  border: 0.2rem solid #8FB83B;
+  background-color: #8FB83B;
+  color: #FFECE0;
+  width: 8.5rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.submit-button {
+  background-color: #8FB83B;
+  color: #FFECE0;
+  width: 5.5rem;
+  height: 2rem;
+  border: none;
+  font-size: 1rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #7A9E33;
+}
