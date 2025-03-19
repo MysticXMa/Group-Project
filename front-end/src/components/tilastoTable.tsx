@@ -63,7 +63,11 @@ const TilastoTable = () => {
       header: ({ column }) => (
         <div onClick={() => column.toggleSorting()} className="column-header">
           Ryhmä{" "}
-          {column.getIsSorted() === "asc" ? "↑" : column.getIsSorted() === "desc" ? "↓" : ""}
+          {column.getIsSorted() === "asc"
+            ? "↑"
+            : column.getIsSorted() === "desc"
+            ? "↓"
+            : ""}
         </div>
       ),
       cell: ({ getValue }) => getValue(),
@@ -72,7 +76,11 @@ const TilastoTable = () => {
       header: ({ column }) => (
         <div onClick={() => column.toggleSorting()} className="column-header">
           Koulu{" "}
-          {column.getIsSorted() === "asc" ? "↑" : column.getIsSorted() === "desc" ? "↓" : ""}
+          {column.getIsSorted() === "asc"
+            ? "↑"
+            : column.getIsSorted() === "desc"
+            ? "↓"
+            : ""}
         </div>
       ),
       cell: ({ getValue }) => getValue(),
@@ -81,7 +89,11 @@ const TilastoTable = () => {
       header: ({ column }) => (
         <div onClick={() => column.toggleSorting()} className="column-header">
           Joukkue{" "}
-          {column.getIsSorted() === "asc" ? "↑" : column.getIsSorted() === "desc" ? "↓" : ""}
+          {column.getIsSorted() === "asc"
+            ? "↑"
+            : column.getIsSorted() === "desc"
+            ? "↓"
+            : ""}
         </div>
       ),
       cell: ({ getValue }) => getValue(),
@@ -93,19 +105,25 @@ const TilastoTable = () => {
         header: ({ column }) => (
           <div onClick={() => column.toggleSorting()} className="column-header">
             Rasti {index + 1}{" "}
-            {column.getIsSorted() === "asc" ? "↑" : column.getIsSorted() === "desc" ? "↓" : ""}
+            {column.getIsSorted() === "asc"
+              ? "↑"
+              : column.getIsSorted() === "desc"
+              ? "↓"
+              : ""}
           </div>
         ),
         cell: ({ row, table }) => {
           const rowData = row.original;
           const totalSeconds =
-            rowData.rastiAjat[index] !== undefined ? rowData.rastiAjat[index] : 0;
-          
+            rowData.rastiAjat[index] !== undefined
+              ? rowData.rastiAjat[index]
+              : 0;
+
           // When not editing display the formatted time
           if (!isEditing) {
             return timeFormat(totalSeconds);
           }
-    
+
           return (
             <TimeInput
               value={totalSeconds}
@@ -123,16 +141,23 @@ const TilastoTable = () => {
       })
     ),
     // Yhteensä column (read-only)
-    columnHelper.accessor(row => row.rastiAjat.reduce((sum, time) => sum + time, 0), {
-      id: 'yhteensa',
-      header: ({ column }) => (
-        <div onClick={() => column.toggleSorting()} className="column-header">
-          Yhteensä{" "}
-          {column.getIsSorted() === "asc" ? "↑" : column.getIsSorted() === "desc" ? "↓" : ""}
-        </div>
-      ),
-      cell: ({ getValue }) => timeFormat(getValue()),
-    }),
+    columnHelper.accessor(
+      (row) => row.rastiAjat.reduce((sum, time) => sum + time, 0),
+      {
+        id: "yhteensa",
+        header: ({ column }) => (
+          <div onClick={() => column.toggleSorting()} className="column-header">
+            Yhteensä{" "}
+            {column.getIsSorted() === "asc"
+              ? "↑"
+              : column.getIsSorted() === "desc"
+              ? "↓"
+              : ""}
+          </div>
+        ),
+        cell: ({ getValue }) => timeFormat(getValue()),
+      }
+    ),
   ];
 
   // Create the table instance
@@ -180,7 +205,7 @@ const TilastoTable = () => {
     return <div>Loading...</div>;
   }
 
-  if (localStorage.getItem("admin")===true) {
+  if (localStorage.getItem("admin") === "true") {
     return (
       <div className="taulukko-table table-wrapper">
         <table className="taulukko">
@@ -190,7 +215,10 @@ const TilastoTable = () => {
                 <th id="number-column">#</th>
                 {headerGroup.headers.map((header) => (
                   <th key={header.id} className={header.id}>
-                    {flexRender(header.column.columnDef.header, header.getContext())}
+                    {flexRender(
+                      header.column.columnDef.header,
+                      header.getContext()
+                    )}
                   </th>
                 ))}
               </tr>
@@ -233,7 +261,10 @@ const TilastoTable = () => {
                 <th id="number-column">#</th>
                 {headerGroup.headers.map((header) => (
                   <th key={header.id} className={header.id}>
-                    {flexRender(header.column.columnDef.header, header.getContext())}
+                    {flexRender(
+                      header.column.columnDef.header,
+                      header.getContext()
+                    )}
                   </th>
                 ))}
               </tr>

@@ -57,7 +57,7 @@ function Joukkueet() {
     }
   };
 
-  if (localStorage.getItem("admin")===true) {
+  if (localStorage.getItem("admin") === true) {
     return (
       <div style={{ width: "100%" }}>
         <div className="table-container">
@@ -76,11 +76,19 @@ function Joukkueet() {
               onChange={handleFileSelect}
             />
             {/* Button to open file explorer */}
-            <button type="button" className="upload-button" onClick={handleFileButtonClick}>
+            <button
+              type="button"
+              className="upload-button"
+              onClick={handleFileButtonClick}
+            >
               {selectedFile ? selectedFile.name : "Valitse tiedosto"}
             </button>
             {/* Submit button (enabled only when a file is selected) */}
-            <button type="submit" className="submit-button" disabled={!selectedFile}>
+            <button
+              type="submit"
+              className="submit-button"
+              disabled={!selectedFile}
+            >
               Lataa
             </button>
           </form>
