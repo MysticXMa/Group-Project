@@ -1,0 +1,165 @@
+.aika-container {
+    background-color: #FFECE0;
+    color: #8FB83B;
+    border-color: #8FB83B;
+    border-radius: 10px;
+    border-style: solid;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+.ajan-kirjaus-main-label {
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-right: 250px;
+    align-self: flex-start;
+}
+
+.rasti-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 190px;
+    margin: 5px;
+}
+
+.rasti-label {
+    align-self: flex-start;
+}
+
+.rasti-input {
+    align-self: flex-start;
+    width: 182px;
+    border-color: #8FB83B;
+    border-radius: 5px;
+    border-style: solid;
+    color: #8FB83B;
+    font-size: large;
+    font-family: "Besley", serif;
+}
+
+.rasti-input:focus {
+    outline: 1px solid #8FB83B;
+}
+
+.rasti-input:hover {
+    outline: 1px solid #8FB83B;
+}
+
+.ryhmä-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 190px;
+    margin: 5px;
+}
+
+.ryhmä-label {
+    align-self: flex-start;
+}
+
+.ryhmä-input {
+    align-self: flex-end;
+    width: 190px;
+    border: 2px;
+    border-color: #8FB83B;
+    border-radius: 5px;
+    border-style: solid;
+    color: #8FB83B;
+    font-size: large;
+    font-family: "Besley", serif;
+}
+
+.ryhmä-input :disabled {
+    color: #8FB83A;
+}
+
+.ryhmä-input:focus {
+    outline: 1px solid #8FB83B;
+}
+
+.ryhmä-input:hover {
+    outline: 1px solid #8FB83B;
+}
+
+.aika-tallenus {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 400px;
+}
+
+.aika-label-box {
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.minuutti-label {
+    padding-left: 5px;
+    width: 138px;
+    text-align: left;
+}
+
+.sekuntti-label {
+    padding-left: 25px;
+    width: 138px;
+    text-align: left;
+}
+
+.aika-tallenus .time-input span {
+    width: 14px;
+    margin: 0px;
+}
+
+.aika-tallenus .time-input input{
+    width: 130px;
+    border-color: #8FB83B;
+    border-radius: 5px;
+    border-style: solid;
+    color: #8FB83B;
+    font-size: large;
+    margin: 5px;
+    font-family: "Besley", serif;
+}
+
+.aika-tallenus .time-input input:focus {
+    outline: 1px solid #8FB83B;
+}
+
+.aika-tallenus .time-input input:hover {
+    outline: 1px solid #8FB83B;
+}
+
+.tallennus {
+    border-color: #8FB83B;
+    border-radius: 5px;
+    border-style: solid;
+    color: #FFECE0;
+    background-color: #8FB83B;
+    padding: 1px;
+    margin: 5px;
+    width: 80px;
+    font-family: "Besley", serif;
+}
+
+.tallennus:hover {
+    background-color: #FFECE0;
+    color: #8FB83B;
+    outline: 1px solid #8FB83B;
+}
+
+.aika-container [type=number]::-webkit-inner-spin-button {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1em;
+    border-left: 1px solid #bbb;
+  }
