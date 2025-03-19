@@ -5,8 +5,6 @@ Misa: HTML, React
 Tuomas: CSS
 Hiskia: JavaScript
 Maxim: SQL, TypeScript
-
-Sigma
 ```
 
 # Taitaja
